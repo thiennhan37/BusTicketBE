@@ -1,3 +1,9 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /vexedat
 spring:
-  application:
-    name: BusTicket
+  datasource:
+    url: "jdbc:mysql://localhost:3306/BusTicket"
+    username: root
+    password: NhanThien24
