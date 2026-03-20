@@ -14,7 +14,7 @@ public class IdUtil {
         StringBuilder sb = new StringBuilder();
         sb.append(charString.charAt(random.nextInt(26)) );
         sb.append(numberString.charAt(random.nextInt(9)) );
-        sb.append(Long.toString(mlsValue, 24).toUpperCase());
+        sb.append(Long.toString(mlsValue, 36).toUpperCase());
 
         return sb.toString();
     }

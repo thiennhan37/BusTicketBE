@@ -15,7 +15,7 @@ import java.time.LocalDate;
 public class CompanyUserResponse {
     @Id
     private String id;
-    private String busCompanyID, email, phone, fullName;
+    private String busCompanyId, email, phone, fullName;
     private LocalDate dob;
     private String gender, role, status;
 }
